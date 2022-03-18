@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab</title>
+    <style>
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .active, .accordion:hover {
+            background-color: #ccc; 
+        }
+
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+        /*
+        * {
+            box-sizing: border-box;
+            font-family: Verdana, sans-serif;
+            user-select: none;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .head{
+            color: #8B00FF;
+            text-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
+        }
+        .accordion{
+            height: 50px;
+            width: 500px;
+            margin-top: 20px;
+            background-color: #8B00FF;
+            color: #fff;
+            border-radius:10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4px 14px;
+            position: relative;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+
+        }
+
+        .title{
+            font-size: large;
+        }
+        .show{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+            cursor: pointer;
+            background-color: #fff;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+            color: #000;
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+        }
+        .info{
+            height: 0;
+            width: 500px;
+            background-color: transparent;
+            color: #000;
+            display: flex;
+            align-items: center;
+            padding: 0 14px;
+            position: relative;
+            overflow: hidden;
+            border: 0;
+            transition: height .4s;
+        }
+        .info.reveal{
+            min-height: 150px;
+            border: 1px solid #8B00FF;
+            border-radius: 0 0 10px 10px;
+            transition: height .4s;
+        }
+        .accordion.radius{
+        border-radius:10px 10px  0 0 ;
+        }
+
+        @media screen and (max-width: 500px){
+            .accordion, .info{
+                width: 400px;
+            }
+        }
+        @media screen and (max-width: 400px){
+            .accordion, .info{
+                width: 350px;
+            }
+        }
+        @media screen and (max-width: 350px){
+            .accordion, .info{
+                width: 300px;
+            }
+        }
+        */
+    </style>
+    <script defer src="Accordion.js"></script>
+</head>
+<body>
+    <button class="accordion">Section 1</button>
+    <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <button class="accordion">Section 2</button>
+    <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <button class="accordion">Section 3</button>
+    <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    
+
+    <!-- <h1 class="head">ACCORDION</h1>
+    <div class="accordion">
+        <p class="title">Section #1</p>
+        <span class="show">+</span>
+    </div>
+    <div class="info">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam voluptatum consectetur repudiandae nisi, sint
+            nesciunt quis tenetur ut maxime id! Dicta sint, sit incidunt facere libero fuga assumenda perferendis unde.
+        </p>
+    </div>
+    <div class="accordion">
+        <p class="title">Section #2</p>
+        <span class="expander show">+</span>
+    </div>
+    <div class="info">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam voluptatum consectetur repudiandae nisi, sint
+            nesciunt quis tenetur ut maxime id! Dicta sint, sit incidunt facere libero fuga assumenda perferendis unde.
+        </p>
+    </div>
+    <div class="accordion">
+        <p class="title">Section #3</p>
+        <span class="expander show">+</span>
+    </div>
+    <div class="info">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam voluptatum consectetur repudiandae nisi, sint
+            nesciunt quis tenetur ut maxime id! Dicta sint, sit incidunt facere libero fuga assumenda perferendis unde.
+        </p>
+    </div>
+    <div class="accordion">
+        <p class="title">Section #4</p>
+        <span class="expander show">+</span>
+    </div>
+    <div class="info">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam voluptatum consectetur repudiandae nisi, sint
+            nesciunt quis tenetur ut maxime id! Dicta sint, sit incidunt facere libero fuga assumenda perferendis
+            unde.
+        </p>
+    </div> -->
+
+    
+    
+</body>
+</html>
